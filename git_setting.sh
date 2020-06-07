@@ -1,4 +1,5 @@
-brew install hub
 rm -rf .git
 git init .
-hub create
+git add .
+git commit -m "initial commit"
+git push
